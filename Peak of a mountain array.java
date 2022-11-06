@@ -10,6 +10,8 @@ class Solution {
                 end = mid - 1;
             } else {
                 //ans found
+                //start and end are always trying to find the max. element in the above two checks , so when they are 
+                //pointing to just one element , it means that it is the max one because that is what the checks say .
                 return mid;
             }
         }
