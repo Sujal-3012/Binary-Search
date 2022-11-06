@@ -9,6 +9,9 @@ class Solution {
         return ans;
     }
     public int searchans(int[] nums , int target , boolean findStart){
+        //If you find target then put it as potential ans and search again by reducing search space , because same no. may be present at other locations also .
+        //In other two cases follow the same procedure of binary search .
+        //If the target is not in the array then the loop will finish and you will never touch the else condition , in that case return -1 (initial ans) .
         int ans = -1;
         int s = 0;         
         int e = nums.length - 1;         
