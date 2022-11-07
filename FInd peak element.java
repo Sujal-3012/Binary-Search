@@ -10,11 +10,13 @@ class Solution {
                 //hence end != mid - 1
                 end = mid;
             } else{
-                start = mid + 1;
+                start = mid + 1; //because we know that mid + 1 element > mid element 
             }
         }
         return start;
         //you can return end also as both are equal at last when search is complete 
+        //In the end start == end and pointing to the same number because of the two checks 
+        //when only one elemnt is remaining , that is the best possible ans 
     }
 }
 Console
