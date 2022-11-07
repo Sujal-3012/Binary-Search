@@ -15,6 +15,6 @@ class Solution {
                 return mid;
             }
         }
-        return -1;
+        return start; ////you can return end also as both are equal at last when search is complete 
     }
 }
