@@ -1,4 +1,5 @@
 class Solution {
+    //This will not work for duplicate values
     public int search(int[] nums, int target) {
         int s = 0;
         int e = nums.length - 1;
