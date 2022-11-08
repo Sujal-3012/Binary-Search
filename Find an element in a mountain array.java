@@ -8,6 +8,7 @@
  */
  
 class Solution {
+ //Here the problem is this solution is making too many calls to get() method of MountainArray interface 
     public int findInMountainArray(int target, MountainArray mountainArr) {
         int s = 0;
         int e = mountainArr.length() - 1;
