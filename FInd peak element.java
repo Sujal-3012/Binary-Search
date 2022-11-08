@@ -1,4 +1,5 @@
 class Solution {
+    //This is more accurate solution for finding peak element in mountain array 
     public int findPeakElement(int[] nums) {
         int start = 0;
         int end = nums.length - 1;
